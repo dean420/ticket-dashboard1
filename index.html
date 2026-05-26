@@ -1,12 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ticket Tracker Snapshot — 5/25/2026, 4:13:17 PM</title>
-<style>
-:root { color-scheme: light; }
-:root { color-scheme: light; }
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Ticket Tracker Snapshot — 5/26/2026, 5:54:58 PM</title><style>:root{color-scheme:light;}:root { color-scheme: light; }
 * { box-sizing: border-box; }
 body { margin: 0px; font: 14px / 1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: rgb(29, 31, 35); background: rgb(250, 250, 251); }
 .wrap { max-width: 1100px; margin: 0px auto; padding: 18px 22px 60px; }
@@ -16,7 +8,6 @@ h1 { font-size: 22px; margin: 0px; font-weight: 600; }
 .toolbar { display: flex; gap: 8px; margin: 10px 0px 18px; flex-wrap: wrap; align-items: center; }
 .export-btn { padding: 7px 12px; border: 1px solid rgb(29, 78, 216); background: rgb(29, 78, 216); color: rgb(255, 255, 255); border-radius: 8px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; font-size: 13px; font-weight: 500; cursor: pointer; }
 .export-btn:hover { background: rgb(30, 64, 175); border-color: rgb(30, 64, 175); }
-.export-btn:active { transform: translateY(1px); }
 .toolbar input[type="search"] { flex: 1 1 0%; min-width: 200px; padding: 8px 12px; border: 1px solid rgb(214, 216, 222); border-radius: 8px; background: rgb(255, 255, 255); font: inherit; }
 .pill { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 500; background: rgb(238, 240, 244); color: rgb(44, 48, 56); }
 .pill.warn { background: rgb(253, 231, 233); color: rgb(179, 38, 30); }
@@ -25,26 +16,12 @@ h1 { font-size: 22px; margin: 0px; font-weight: 600; }
 .pill.muted { background: rgb(236, 236, 239); color: rgb(86, 90, 100); }
 .pill.dev { background: rgb(253, 235, 214); color: rgb(138, 74, 19); }
 .pill.new { background: rgb(243, 232, 255); color: rgb(107, 33, 168); }
-details.master { background: rgb(255, 255, 255); border: 1px solid rgb(208, 212, 220); border-radius: 14px; margin-bottom: 18px; overflow: hidden; }
-details.master > summary { list-style: none; cursor: pointer; user-select: none; padding: 14px 18px; display: flex; align-items: center; gap: 12px; font-size: 17px; font-weight: 600; background: linear-gradient(rgb(244, 246, 250) 0%, rgb(255, 255, 255) 100%); border-bottom: 1px solid transparent; }
-details.master[open] > summary { border-bottom-color: rgb(228, 230, 236); }
-details.master > summary::-webkit-details-marker { display: none; }
-details.master > summary::before { content: "▸"; color: rgb(95, 100, 112); transition: transform 0.15s; display: inline-block; }
-details.master[open] > summary::before { transform: rotate(90deg); }
-details.master > summary .brand-title { flex: 1 1 0%; }
-details.master[data-brand="advancepro"] > summary .brand-title { color: rgb(29, 78, 216); }
-details.master[data-brand="eagle"] > summary .brand-title { color: rgb(29, 111, 63); }
-details.master > summary .brand-counts { color: rgb(95, 100, 112); font-size: 13px; font-weight: 500; }
-.master-body { padding: 12px 12px 6px; }
 .badge { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10.5px; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
 .badge.bug { background: rgb(253, 231, 233); color: rgb(179, 38, 30); }
 .badge.kb { background: rgb(230, 239, 255); color: rgb(29, 78, 216); }
 .badge.enh { background: rgb(253, 235, 214); color: rgb(138, 74, 19); }
 .badge.ap { background: rgb(230, 239, 255); color: rgb(29, 78, 216); }
 .badge.eagle { background: rgb(243, 232, 255); color: rgb(107, 33, 168); }
-.badge.desktop { background: rgb(236, 236, 239); color: rgb(44, 48, 56); }
-.badge.cloud { background: rgb(227, 245, 234); color: rgb(29, 111, 63); }
-.badge.unknown { background: rgb(255, 245, 230); color: rgb(138, 74, 19); }
 details.section { background: rgb(255, 255, 255); border: 1px solid rgb(228, 230, 236); border-radius: 12px; margin-bottom: 12px; overflow: hidden; }
 details.section.urgent { border-color: rgb(244, 178, 182); }
 details.section[open] { box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 0px; }
@@ -77,92 +54,92 @@ details.section > summary .desc { color: rgb(95, 100, 112); font-size: 12px; fon
 .ext-link:hover { text-decoration: underline; }
 .empty { padding: 14px 18px; color: rgb(138, 142, 152); font-style: italic; }
 .errbox { background: rgb(253, 231, 233); border: 1px solid rgb(244, 178, 182); color: rgb(128, 33, 33); padding: 10px 14px; border-radius: 8px; margin: 10px 0px; }
-.source-tag { font-size: 11px; color: rgb(95, 100, 112); margin-left: 6px; }
 .footer { color: rgb(138, 142, 152); font-size: 12px; margin-top: 24px; text-align: center; }
-kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); padding: 1px 5px; border-radius: 4px; }
 .dashboard { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 14px 0px 10px; }
-.stat-card { position: relative; background: rgb(255, 255, 255); border: 1px solid rgb(228, 230, 236); border-radius: 12px; padding: 14px 16px 12px 18px; overflow: hidden; transition: transform 0.12s, box-shadow 0.12s, border-color 0.12s; }
-.stat-card:hover { border-color: rgb(208, 212, 220); box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 3px, rgba(0, 0, 0, 0.04) 0px 4px 12px; }
+.stat-card { position: relative; background: rgb(255, 255, 255); border: 1px solid rgb(228, 230, 236); border-radius: 12px; padding: 14px 16px 12px 18px; overflow: hidden; }
 .stat-card::before { content: ""; position: absolute; left: 0px; top: 0px; bottom: 0px; width: 4px; background: rgb(214, 216, 222); }
 .stat-card.stat-open::before { background: linear-gradient(rgb(29, 78, 216), rgb(37, 99, 235)); }
 .stat-card.stat-resolved::before { background: linear-gradient(rgb(29, 111, 63), rgb(34, 165, 89)); }
-.stat-card.stat-filtered::before { background: linear-gradient(rgb(138, 142, 152), rgb(176, 180, 190)); }
-.stat-card.stat-shown::before { background: linear-gradient(rgb(107, 33, 168), rgb(139, 92, 246)); }
 .stat-head { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: rgb(95, 100, 112); }
 .stat-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: rgb(214, 216, 222); }
 .stat-open .stat-dot { background: rgb(29, 78, 216); }
 .stat-resolved .stat-dot { background: rgb(34, 165, 89); }
-.stat-filtered .stat-dot { background: rgb(138, 142, 152); }
-.stat-shown .stat-dot { background: rgb(139, 92, 246); }
 .stat-value { font-size: 30px; font-weight: 700; color: rgb(29, 31, 35); line-height: 1.05; margin-top: 6px; font-variant-numeric: tabular-nums; }
 .stat-value.loading { color: rgb(200, 204, 212); }
 .stat-sub { font-size: 11.5px; color: rgb(138, 142, 152); margin-top: 3px; }
 @media (max-width: 560px) {
   .dashboard { grid-template-columns: 1fr; }
 }
-
-.snapshot-banner {
-  background: #fff5e6; border: 1px solid #fdab3d; color: #8a4a13;
-  padding: 8px 14px; border-radius: 8px; margin-bottom: 14px;
-  font-size: 13px;
-}
-.snapshot-banner b { color: #5a2e08; }
-</style>
-</head>
-<body>
-<div class="wrap">
-  <header class="top">
-    <h1>Ticket Tracker — Snapshot</h1>
-    <span class="subtitle">Static report — data captured 5/25/2026, 4:13:17 PM</span>
-  </header>
-  <div class="snapshot-banner"><b>Note:</b> This is a frozen snapshot. Data is not live. Refresh by re-exporting from the source dashboard.</div>
-  <div class="dashboard" aria-label="Snapshot summary">
+.banner{background:#fff5e6;border:1px solid #fdab3d;color:#8a4a13;padding:8px 14px;border-radius:8px;margin-bottom:14px;font-size:13px;}</style></head><body><div class="wrap"><header class="top"><h1>Ticket Tracker — Snapshot</h1><span class="subtitle">Captured 5/26/2026, 5:54:58 PM</span></header><div class="banner"><b>Note:</b> Static snapshot — data frozen at export time.</div><div class="dashboard">
     <div class="stat-card stat-open">
       <div class="stat-head"><span class="stat-dot"></span> Open Tickets</div>
-      <div class="stat-value" id="stat-open">25</div>
+      <div class="stat-value" id="stat-open">34</div>
       <div class="stat-sub">in the queue</div>
     </div>
     <div class="stat-card stat-resolved">
       <div class="stat-head"><span class="stat-dot"></span> Resolved · 24h</div>
-      <div class="stat-value" id="stat-resolved">0</div>
+      <div class="stat-value" id="stat-resolved">5</div>
       <div class="stat-sub">last 24 hours</div>
     </div>
-  </div>
-  <div class="toolbar">
-    <input id="search" type="search" placeholder="Filter by name, company, agent, or status…" autocomplete="off" />
-  </div>
-  <div id="content">
-      <details class="section urgent" data-cat="URGENT">
-        <summary>
-          <span class="title">Urgent / Show-Stoppers <span class="desc">— Customer can't conduct business — escalate immediately</span></span>
-          <span class="pill warn">6</span>
-        </summary>
+  </div><div class="toolbar"><input id="search" type="search" placeholder="Filter…" autocomplete="off"/></div><div id="content">
+      <details class="section urgent" data-cat="URGENT" open="">
+        <summary><span class="title">Urgent / Show-Stoppers <span class="desc">— Customer can't conduct business — escalate immediately</span></span><span class="pill warn">6</span></summary>
         <div class="group-body">
-          
-    <div class="ticket" data-idx="2">
+    <div class="ticket" data-idx="6">
       <div class="num">1.</div>
       <div class="body">
-        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2934943683" target="_blank" rel="noopener">Customer order report not working</a>
-        
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942865029" target="_blank" rel="noopener">NEED LOGIN INFORMATION ASAP</a>
         <div class="meta-row">
-          <span><span class="label">Company:</span> <span class="v bold">Baldwin School Supply</span></span>
+          <span><span class="label">Company:</span> <span class="v bold">Funding Innovation</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
-          <span><span class="label">Created:</span> <span class="v">May 22, 2026</span></span>
-          <span><span class="label">Status:</span> <span class="v">Waiting on APTD Dev</span></span> · <span class="ext-link" style="color:#8a8e98">AD-705</span>
+          <span><span class="label">Created:</span> <span class="v">May 26, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Waiting for APT Support</span></span>
         </div>
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge urgent">3.4d open</span>
+        <span class="age-badge urgent">&lt;1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942865029" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="8">
+      <div class="num">2.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2873933709" target="_blank" rel="noopener">Re: Missing images</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">8a Group</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">Apr 27, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Waiting for APT Support</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge urgent">29d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2873933709" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="11">
+      <div class="num">3.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2934943683" target="_blank" rel="noopener">Customer order report not working</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">Baldwin School Supply</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 22, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Waiting for APT Support</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge urgent">4.4d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2934943683" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="5">
-      <div class="num">2.</div>
+    <div class="ticket" data-idx="14">
+      <div class="num">4.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2935760175" target="_blank" rel="noopener">Issues accessing invoices from my computer</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">twentyfivecompany</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -172,16 +149,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge urgent">3.0d open</span>
+        <span class="age-badge urgent">4.1d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2935760175" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="7">
-      <div class="num">3.</div>
+    <div class="ticket" data-idx="16">
+      <div class="num">5.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2930913671" target="_blank" rel="noopener">Please help</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">twentyfivecompany.com</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Gestoni Cordova</span></span>
@@ -191,16 +166,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge urgent">5.1d open</span>
+        <span class="age-badge urgent">6.2d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2930913671" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="9">
-      <div class="num">4.</div>
+    <div class="ticket" data-idx="17">
+      <div class="num">6.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2931087049" target="_blank" rel="noopener">Re: APTX. MORE Issues.</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">Twentyfive Company</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -210,64 +183,35 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge urgent">5.0d open</span>
+        <span class="age-badge urgent">6.0d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2931087049" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
-    </div>
-  
-    <div class="ticket" data-idx="11">
-      <div class="num">5.</div>
-      <div class="body">
-        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933602348" target="_blank" rel="noopener">AP &amp; App Down</a>
-        
-        <div class="meta-row">
-          <span><span class="label">Company:</span> <span class="v bold">Funding Innovation</span></span>
-          <span><span class="label">Agent:</span> <span class="v bold">?</span></span>
-          <span><span class="label">Created:</span> <span class="v">May 21, 2026</span></span>
-          <span><span class="label">Status:</span> <span class="v">Waiting for APT Support</span></span>
-        </div>
-        <div class="effort loading">Reading communications…</div>
-      </div>
-      <div class="right">
-        <span class="age-badge urgent">4.0d open</span>
-        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933602348" target="_blank" rel="noopener">Open in Monday →</a>
-      </div>
-    </div>
-  
-    <div class="ticket" data-idx="14">
-      <div class="num">6.</div>
-      <div class="body">
-        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2873933709" target="_blank" rel="noopener">Re: Missing images</a>
-        
-        <div class="meta-row">
-          <span><span class="label">Company:</span> <span class="v bold">8a Group</span></span>
-          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
-          <span><span class="label">Created:</span> <span class="v">Apr 27, 2026</span></span>
-          <span><span class="label">Status:</span> <span class="v">Awaiting customer</span></span>
-        </div>
-        <div class="effort loading">Reading communications…</div>
-      </div>
-      <div class="right">
-        <span class="age-badge urgent">28d open</span>
-        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2873933709" target="_blank" rel="noopener">Open in Monday →</a>
-      </div>
-    </div>
-  
-        </div>
+    </div></div>
       </details>
-    
-      <details class="section " data-cat="NEW">
-        <summary>
-          <span class="title">New Tickets <span class="desc">— Just came in — not yet picked up by an agent</span></span>
-          <span class="pill new">2</span>
-        </summary>
+      <details class="section" data-cat="NEW" open="">
+        <summary><span class="title">New Tickets <span class="desc">— Just came in — not yet picked up by an agent</span></span><span class="pill new">4</span></summary>
         <div class="group-body">
-          
-    <div class="ticket" data-idx="3">
+    <div class="ticket" data-idx="1">
       <div class="num">1.</div>
       <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2943162640" target="_blank" rel="noopener">Fw: Server pc start problem</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">SDS Skateboards</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Unassigned</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 26, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Unassigned</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge ">&lt;1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2943162640" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="13">
+      <div class="num">2.</div>
+      <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2937673966" target="_blank" rel="noopener">Invoice from Track individual sales: Afkari- Kuwait</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">Advantec</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Unassigned</span></span>
@@ -277,16 +221,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge ">1.5d open</span>
+        <span class="age-badge ">2.6d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2937673966" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="19">
-      <div class="num">2.</div>
+    <div class="ticket" data-idx="25">
+      <div class="num">3.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2930473911" target="_blank" rel="noopener">-Quantity discrepancy</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">Roudel Medical</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Unassigned</span></span>
@@ -296,26 +238,69 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge stale">5.2d open</span>
+        <span class="age-badge stale">6.3d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2930473911" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
+    <div class="ticket" data-idx="32">
+      <div class="num">4.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2917405159" target="_blank" rel="noopener">AdvancePro-Cancel Order Error Messages</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">azdes.gov</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Unassigned</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 14, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">NEW TICKET</span></span>
         </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge stale">12d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2917405159" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div></div>
       </details>
-    
-      <details class="section " data-cat="ACTIVE_APTX" open="">
-        <summary>
-          <span class="title">Active — Currently Working <span class="desc">— Agent is actively investigating / responding</span></span>
-          <span class="pill info">9</span>
-        </summary>
+      <details class="section" data-cat="ACTIVE_APTX" open="">
+        <summary><span class="title">Active — Currently Working <span class="desc">— Agent is actively investigating / responding</span></span><span class="pill info">13</span></summary>
         <div class="group-body">
-          
     <div class="ticket" data-idx="0">
       <div class="num">1.</div>
       <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2943217727" target="_blank" rel="noopener">Salesrep sync</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">8agroup</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Gestoni Cordova</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 26, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Waiting for APT Support</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge ">&lt;1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2943217727" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="2">
+      <div class="num">2.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942991882" target="_blank" rel="noopener">I spoke to soon</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">twentyfivecompany.com</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 26, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Waiting for APT Support</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge ">&lt;1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942991882" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="3">
+      <div class="num">3.</div>
+      <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2940237394" target="_blank" rel="noopener">AP Desktop SO Slow</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">Funding Innovation</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -325,35 +310,31 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge ">&lt;1d open</span>
+        <span class="age-badge ">1.3d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2940237394" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="8">
-      <div class="num">2.</div>
+    <div class="ticket" data-idx="7">
+      <div class="num">4.</div>
       <div class="body">
-        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933257026" target="_blank" rel="noopener">Re: AP server set up</a>
-        
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942344000" target="_blank" rel="noopener">OCHOA_Connecting to Your Upgraded Server</a>
         <div class="meta-row">
-          <span><span class="label">Company:</span> <span class="v bold">SDS Skateboards</span></span>
+          <span><span class="label">Company:</span> <span class="v bold">8a Group</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
-          <span><span class="label">Created:</span> <span class="v">May 21, 2026</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 26, 2026</span></span>
           <span><span class="label">Status:</span> <span class="v">Waiting for APT Support</span></span>
         </div>
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge ">4.2d open</span>
-        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933257026" target="_blank" rel="noopener">Open in Monday →</a>
+        <span class="age-badge ">&lt;1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942344000" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="10">
-      <div class="num">3.</div>
+    <div class="ticket" data-idx="18">
+      <div class="num">5.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933536580" target="_blank" rel="noopener">AdvancePro-To install local AP on inhouse server and link with desk top QB</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">SDS Skateboards</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -363,16 +344,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge ">4.1d open</span>
+        <span class="age-badge stale">5.2d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933536580" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="12">
-      <div class="num">4.</div>
+    <div class="ticket" data-idx="19">
+      <div class="num">6.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2930806228" target="_blank" rel="noopener">AdvancePro-Error creating back order reports</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">integrisit</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -382,16 +361,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge stale">5.1d open</span>
+        <span class="age-badge stale">6.2d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2930806228" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="13">
-      <div class="num">5.</div>
+    <div class="ticket" data-idx="20">
+      <div class="num">7.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2931045646" target="_blank" rel="noopener">APTX. MORE Issues.</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">twentyfivecompany</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -401,16 +378,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge ">5.0d open</span>
+        <span class="age-badge stale">6.1d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2931045646" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="15">
-      <div class="num">6.</div>
+    <div class="ticket" data-idx="21">
+      <div class="num">8.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2930712225" target="_blank" rel="noopener">-can no longer run customer backorder reports after migration</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">SPEA</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -420,16 +395,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge stale">5.2d open</span>
+        <span class="age-badge stale">6.3d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2930712225" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="17">
-      <div class="num">7.</div>
+    <div class="ticket" data-idx="23">
+      <div class="num">9.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2930936465" target="_blank" rel="noopener">Re: Noticed issues on your Website !</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">WNT Virtual Services</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">?</span></span>
@@ -439,16 +412,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge stale">5.1d open</span>
+        <span class="age-badge stale">6.1d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2930936465" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="18">
-      <div class="num">8.</div>
+    <div class="ticket" data-idx="24">
+      <div class="num">10.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2924802234" target="_blank" rel="noopener">25CO - deleting products</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">twentyfivecompany.com</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Gestoni Cordova</span></span>
@@ -458,16 +429,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge stale">7.2d open</span>
+        <span class="age-badge stale">8.3d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2924802234" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="20">
-      <div class="num">9.</div>
+    <div class="ticket" data-idx="26">
+      <div class="num">11.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2927851397" target="_blank" rel="noopener">Incoming email - no subject</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">Protege Casual</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Gestoni Cordova</span></span>
@@ -477,84 +446,162 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge stale">6.0d open</span>
+        <span class="age-badge stale">7.1d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2927851397" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-        </div>
-      </details>
-    
-      <details class="section " data-cat="WAITING_ON_APTX_DEV" open="">
-        <summary>
-          <span class="title">Waiting on APTX Dev (Cloud) <span class="desc">— Handed to APTX cloud dev team</span></span>
-          <span class="pill dev">0</span>
-        </summary>
-        <div class="group-body">
-          <div class="empty">None right now.</div>
-        </div>
-      </details>
-    
-      <details class="section " data-cat="WAITING_ON_APTD_DEV" open="">
-        <summary>
-          <span class="title">Waiting on APTD Dev (Desktop) <span class="desc">— Handed to APT Desktop dev team</span></span>
-          <span class="pill dev">2</span>
-        </summary>
-        <div class="group-body">
-          
-    <div class="ticket" data-idx="21">
-      <div class="num">1.</div>
+    <div class="ticket" data-idx="31">
+      <div class="num">12.</div>
       <div class="body">
-        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2900195213" target="_blank" rel="noopener">APTX-4299: AdvancePro-Reports</a>
-        
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2918898621" target="_blank" rel="noopener">Advancepro Auto reports not receiving.</a>
         <div class="meta-row">
-          <span><span class="label">Company:</span> <span class="v bold">BDS Tactical Gear</span></span>
-          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
-          <span><span class="label">Created:</span> <span class="v">May 7, 2026</span></span>
-          <span><span class="label">Status:</span> <span class="v">Waiting on APTD Dev</span></span> · <span class="ext-link" style="color:#8a8e98">AD-704</span>
-        </div>
-        <div class="effort loading">Reading communications…</div>
-      </div>
-      <div class="right">
-        <span class="age-badge stale">18d open</span>
-        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2900195213" target="_blank" rel="noopener">Open in Monday →</a>
-      </div>
-    </div>
-  
-    <div class="ticket" data-idx="22">
-      <div class="num">2.</div>
-      <div class="body">
-        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2917416262" target="_blank" rel="noopener">AD-703 : AdvancePro-Error Messages after Cancelling Order</a>
-        
-        <div class="meta-row">
-          <span><span class="label">Company:</span> <span class="v bold">Arizona Department of Economic Security</span></span>
-          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
-          <span><span class="label">Created:</span> <span class="v">May 14, 2026</span></span>
-          <span><span class="label">Status:</span> <span class="v">Waiting on APTD Dev</span></span> · <span class="ext-link" style="color:#8a8e98">AD-703</span>
+          <span><span class="label">Company:</span> <span class="v bold">Aria Designs</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Gestoni Cordova</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 15, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Waiting for APT Support</span></span>
         </div>
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
         <span class="age-badge stale">11d open</span>
-        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2917416262" target="_blank" rel="noopener">Open in Monday →</a>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2918898621" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
+    <div class="ticket" data-idx="33">
+      <div class="num">13.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2893667498" target="_blank" rel="noopener">Custom report Bill of Lading (BOL) / needed for Drop Ship CPO's which are processed.</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">Aria Designs</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 5, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Waiting for APT Support</span></span>
         </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge stale">21d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2893667498" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div></div>
       </details>
-    
-      <details class="section " data-cat="AWAITING_CUSTOMER" open="">
-        <summary>
-          <span class="title">Awaiting Customer <span class="desc">— Reply sent — ball is in the customer's court</span></span>
-          <span class="pill muted">6</span>
-        </summary>
+      <details class="section" data-cat="WAITING_ON_APTX_DEV" open="">
+        <summary><span class="title">Waiting on APTX Dev (Cloud) <span class="desc">— Handed to APTX cloud dev team</span></span><span class="pill dev">0</span></summary>
+        <div class="group-body"><div class="empty">None right now.</div></div>
+      </details>
+      <details class="section" data-cat="WAITING_ON_APTD_DEV" open="">
+        <summary><span class="title">Waiting on APTD Dev (Desktop) <span class="desc">— Handed to APT Desktop dev team</span></span><span class="pill dev">2</span></summary>
         <div class="group-body">
-          
-    <div class="ticket" data-idx="1">
+    <div class="ticket" data-idx="27">
       <div class="num">1.</div>
       <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2900195213" target="_blank" rel="noopener">APTX-4299: AdvancePro-Reports</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">BDS Tactical Gear</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 7, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Waiting on APTD Dev</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge stale">19d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2900195213" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="28">
+      <div class="num">2.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2917416262" target="_blank" rel="noopener">AD-703 : AdvancePro-Error Messages after Cancelling Order</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">Arizona Department of Economic Security</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 14, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Waiting on APTD Dev</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge stale">12d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2917416262" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div></div>
+      </details>
+      <details class="section" data-cat="AWAITING_CUSTOMER">
+        <summary><span class="title">Awaiting Customer <span class="desc">— Reply sent — ball is in the customer's court</span></span><span class="pill muted">9</span></summary>
+        <div class="group-body">
+    <div class="ticket" data-idx="4">
+      <div class="num">1.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933576437" target="_blank" rel="noopener">Citrix down</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">Aniara</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 21, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Awaiting customer</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge stale">5.1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933576437" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="5">
+      <div class="num">2.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933257026" target="_blank" rel="noopener">Re: AP server set up</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">SDS Skateboards</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 21, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Awaiting customer</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge stale">5.3d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933257026" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="9">
+      <div class="num">3.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942506449" target="_blank" rel="noopener">25CO_Connecting to Your Upgraded Server</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">twentyfivecompany</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 26, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Awaiting customer</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge ">&lt;1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942506449" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="10">
+      <div class="num">4.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942442955" target="_blank" rel="noopener">KAPLAN_Connecting to Your Upgraded Server</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">Kaplan Container</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 26, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Awaiting customer</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge ">&lt;1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942442955" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="12">
+      <div class="num">5.</div>
+      <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2940126524" target="_blank" rel="noopener">Reduce users form 8 to 5 -Liquid PC</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">Liquid PC</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -564,35 +611,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge ">&lt;1d open</span>
+        <span class="age-badge ">1.3d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2940126524" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="4">
-      <div class="num">2.</div>
-      <div class="body">
-        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2935799292" target="_blank" rel="noopener">Migration request from Desktop to online</a>
-        
-        <div class="meta-row">
-          <span><span class="label">Company:</span> <span class="v bold">centralohav</span></span>
-          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
-          <span><span class="label">Created:</span> <span class="v">May 22, 2026</span></span>
-          <span><span class="label">Status:</span> <span class="v">Awaiting customer</span></span>
-        </div>
-        <div class="effort loading">Reading communications…</div>
-      </div>
-      <div class="right">
-        <span class="age-badge ">3.0d open</span>
-        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2935799292" target="_blank" rel="noopener">Open in Monday →</a>
-      </div>
-    </div>
-  
-    <div class="ticket" data-idx="6">
-      <div class="num">3.</div>
+    <div class="ticket" data-idx="15">
+      <div class="num">6.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2931059190" target="_blank" rel="noopener">Adding formula column to product list</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">Roudel Medical</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -602,16 +628,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge stale">5.0d open</span>
+        <span class="age-badge stale">6.1d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2931059190" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="16">
-      <div class="num">4.</div>
+    <div class="ticket" data-idx="22">
+      <div class="num">7.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2908066181" target="_blank" rel="noopener">AdvancePro-Customer login and order unsaveable</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">SDS Skateboards</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -621,16 +645,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge stale">14d open</span>
+        <span class="age-badge stale">15d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2908066181" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="23">
-      <div class="num">5.</div>
+    <div class="ticket" data-idx="29">
+      <div class="num">8.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2925258576" target="_blank" rel="noopener">Temporary Change of IP address</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">Senior Living Depot</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
@@ -640,16 +662,14 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge stale">6.8d open</span>
+        <span class="age-badge stale">7.9d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2925258576" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
     </div>
-  
-    <div class="ticket" data-idx="24">
-      <div class="num">6.</div>
+    <div class="ticket" data-idx="30">
+      <div class="num">9.</div>
       <div class="body">
         <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2907981863" target="_blank" rel="noopener">CITRIX RESET</a>
-        
         <div class="meta-row">
           <span><span class="label">Company:</span> <span class="v bold">Genesis VII</span></span>
           <span><span class="label">Agent:</span> <span class="v bold">Gestoni Cordova</span></span>
@@ -659,52 +679,97 @@ kbd { font: 11px ui-monospace, monospace; background: rgb(236, 236, 239); paddin
         <div class="effort loading">Reading communications…</div>
       </div>
       <div class="right">
-        <span class="age-badge stale">14d open</span>
+        <span class="age-badge stale">15d open</span>
         <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2907981863" target="_blank" rel="noopener">Open in Monday →</a>
       </div>
-    </div>
-  
-        </div>
+    </div></div>
       </details>
-    
-      <details class="section " data-cat="RESOLVED_48H" open="">
-        <summary>
-          <span class="title">Recently Resolved (last 24h) <span class="desc">— Closed within the last 24 hours</span></span>
-          <span class="pill ok">0</span>
-        </summary>
+      <details class="section" data-cat="RESOLVED_48H" open="">
+        <summary><span class="title">Recently Resolved (last 24h) <span class="desc">— Closed within the last 24 hours</span></span><span class="pill ok">5</span></summary>
         <div class="group-body">
-          <div class="empty">None right now.</div>
+    <div class="ticket" data-idx="34">
+      <div class="num">1.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942423795" target="_blank" rel="noopener">Customer Key request</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">Aniara</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 26, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Resolved</span></span>
         </div>
-      </details>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge ">&lt;1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942423795" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
     </div>
-</div>
-<script>
-(function() {
-  // Collapsible state persistence (separate localStorage namespace so it doesn't conflict with live dashboard)
-  document.querySelectorAll("details.section").forEach(function(d) {
-    d.addEventListener("toggle", function() {
-      localStorage.setItem("ttsnap_open_" + d.dataset.cat, d.open ? "1" : "0");
-    });
-    var stored = localStorage.getItem("ttsnap_open_" + d.dataset.cat);
-    if (stored !== null) { d.open = stored === "1"; }
-  });
-  // Simple text filter that hides tickets not matching, and updates "Now Showing" stat live
-  var searchEl = document.getElementById("search");
-  var shownEl  = document.getElementById("stat-shown");
-  var baselineShown = shownEl ? parseInt(shownEl.textContent, 10) || 0 : 0;
-  if (searchEl) {
-    searchEl.addEventListener("input", function() {
-      var q = searchEl.value.trim().toLowerCase();
-      var visible = 0;
-      document.querySelectorAll(".ticket").forEach(function(t) {
-        var match = !q || t.textContent.toLowerCase().indexOf(q) >= 0;
-        t.style.display = match ? "" : "none";
-        if (match) visible++;
-      });
-      if (shownEl) shownEl.textContent = q ? visible : baselineShown;
-    });
-  }
-})();
-</script>
-</body>
-</html>
+    <div class="ticket" data-idx="35">
+      <div class="num">2.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942550720" target="_blank" rel="noopener">Advance Pro outage</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">Aniara</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 26, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Resolved</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge ">&lt;1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942550720" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="36">
+      <div class="num">3.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2935799292" target="_blank" rel="noopener">Migration request from Desktop to online</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">centralohav</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 22, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Resolved</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge ">4.1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2935799292" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="37">
+      <div class="num">4.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942496755" target="_blank" rel="noopener">EVOx order not syncing to AP</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">Baldwin School Supply</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 26, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Resolved</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge ">&lt;1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2942496755" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div>
+    <div class="ticket" data-idx="38">
+      <div class="num">5.</div>
+      <div class="body">
+        <a class="name" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933602348" target="_blank" rel="noopener">AP &amp; App Down</a>
+        <div class="meta-row">
+          <span><span class="label">Company:</span> <span class="v bold">Funding Innovation</span></span>
+          <span><span class="label">Agent:</span> <span class="v bold">Ruel Arroyo</span></span>
+          <span><span class="label">Created:</span> <span class="v">May 21, 2026</span></span>
+          <span><span class="label">Status:</span> <span class="v">Resolved</span></span>
+        </div>
+        <div class="effort loading">Reading communications…</div>
+      </div>
+      <div class="right">
+        <span class="age-badge stale">5.1d open</span>
+        <a class="ext-link" href="https://advanceprotech-squad.monday.com/boards/5000145091/pulses/2933602348" target="_blank" rel="noopener">Open in Monday →</a>
+      </div>
+    </div></div>
+      </details></div></div><script>(function(){var s=document.getElementById("search");if(s)s.addEventListener("input",function(){var q=s.value.trim().toLowerCase();document.querySelectorAll(".ticket").forEach(function(t){t.style.display=!q||t.textContent.toLowerCase().includes(q)?"":"none";});});})();</script></body></html>
